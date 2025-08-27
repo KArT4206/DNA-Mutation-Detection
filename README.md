@@ -12,15 +12,12 @@ A Python-based project for detecting and analyzing mutations in DNA sequences.  
 - Biopython (if used)
 - String/sequence comparison algorithms
 
-## Installation
-``bash
-git clone https://github.com/yourusername/DNA_mutation_detections.git
-cd DNA_mutation_detections
-pip install -r requirements.txt``
 ## Usage
-bash
-Copy code
-python mutation_detector.py reference.fasta sample.fasta
+
+Run the script by providing a reference DNA sequence file and a sample DNA sequence file (in FASTA format):
+
+``bash
+python mutation_detector.py reference.fasta sample.fasta``
 ## Example Output
 yaml
 Copy code
