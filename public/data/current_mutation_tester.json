@@ -1,0 +1,162 @@
+[
+  {
+    "id": 1,
+    "name": "TATA Box",
+    "category": "Promoter Motif",
+    "regex": "TATA[AT]A[AT]",
+    "pattern": "TATA[AT]A[AT]",
+    "threshold": null
+  },
+  {
+    "id": 2,
+    "name": "CAAT Box",
+    "category": "Promoter Motif",
+    "regex": "CAAT",
+    "pattern": "CAAT",
+    "threshold": null
+  },
+  {
+    "id": 3,
+    "name": "GC Box",
+    "category": "Promoter Motif",
+    "regex": "GGGCGG",
+    "pattern": "GGGCGG",
+    "threshold": null
+  },
+  {
+    "id": 4,
+    "name": "CpG Island",
+    "category": "Epigenetic Feature",
+    "regex": "CG",
+    "pattern": "CG",
+    "threshold": null
+  },
+  {
+    "id": 5,
+    "name": "Poly-A Tail",
+    "category": "Transcript Feature",
+    "regex": "A{10,}",
+    "pattern": "A{10,}",
+    "threshold": null
+  },
+  {
+    "id": 6,
+    "name": "Poly-T Tail",
+    "category": "Transcript Feature",
+    "regex": "T{10,}",
+    "pattern": "T{10,}",
+    "threshold": null
+  },
+  {
+    "id": 7,
+    "name": "Microsatellite (CA)n",
+    "category": "Repeat Element",
+    "regex": "(CA){5,}",
+    "pattern": "(CA){5,}",
+    "threshold": null
+  },
+  {
+    "id": 8,
+    "name": "Microsatellite (AT)n",
+    "category": "Repeat Element",
+    "regex": "(AT){5,}",
+    "pattern": "(AT){5,}",
+    "threshold": null
+  },
+  {
+    "id": 9,
+    "name": "Telomere Repeat",
+    "category": "Structural",
+    "regex": "(TTAGGG){2,}",
+    "pattern": "(TTAGGG){2,}",
+    "threshold": null
+  },
+  {
+    "id": 10,
+    "name": "Centromeric Alpha Satellite",
+    "category": "Structural",
+    "regex": "(AATAT){2,}",
+    "pattern": "(AATAT){2,}",
+    "threshold": null
+  },
+  {
+    "id": 11,
+    "name": "Splice Donor Site",
+    "category": "Splicing",
+    "regex": "GT",
+    "pattern": "GT",
+    "threshold": null
+  },
+  {
+    "id": 12,
+    "name": "Splice Acceptor Site",
+    "category": "Splicing",
+    "regex": "AG",
+    "pattern": "AG",
+    "threshold": null
+  },
+  {
+    "id": 13,
+    "name": "Kozak Sequence",
+    "category": "Translation Initiation",
+    "regex": "GCC[AG]CCATGG",
+    "pattern": "GCC[AG]CCATGG",
+    "threshold": null
+  },
+  {
+    "id": 14,
+    "name": "Start Codon",
+    "category": "Coding Sequence",
+    "regex": "ATG",
+    "pattern": "ATG",
+    "threshold": null
+  },
+  {
+    "id": 15,
+    "name": "Stop Codon (TAA)",
+    "category": "Coding Sequence",
+    "regex": "TAA",
+    "pattern": "TAA",
+    "threshold": null
+  },
+  {
+    "id": 16,
+    "name": "Stop Codon (TAG)",
+    "category": "Coding Sequence",
+    "regex": "TAG",
+    "pattern": "TAG",
+    "threshold": null
+  },
+  {
+    "id": 17,
+    "name": "Stop Codon (TGA)",
+    "category": "Coding Sequence",
+    "regex": "TGA",
+    "pattern": "TGA",
+    "threshold": null
+  },
+  {
+    "id": 18,
+    "name": "miRNA Seed Match",
+    "category": "Regulatory Motif",
+    "regex": "[ACGT]{6}",
+    "pattern": "[ACGT]{6}",
+    "threshold": null
+  },
+  {
+    "id": 19,
+    "name": "Zinc Finger Motif",
+    "category": "Protein Binding",
+    "regex": "C.{2,4}C.{12}H.{3,5}H",
+    "pattern": "C.{2,4}C.{12}H.{3,5}H",
+    "threshold": null
+  },
+  {
+    "id": 20,
+    "name": "Homeobox Motif",
+    "category": "Protein Binding",
+    "regex": "TAAT",
+    "pattern": "TAAT",
+    "threshold": null
+  }
+]
