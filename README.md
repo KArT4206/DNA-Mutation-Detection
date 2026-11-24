@@ -1,5 +1,8 @@
 # DNA Mutation Detection – Genomic Testing Platform
 
+[![License: GPL-3.0](https://img.shields.io/badge/License-GPL--3.0-blue)](LICENSE)
+![Last commit](https://img.shields.io/github/last-commit/KArT4206/DNA-Mutation-Detection)
+
 A browser-based tool that scans a DNA sequence with a battery of **20 automated tests** (promoter motifs, CpG islands, poly-A/T tails, repeats, splice sites, codons, miRNA seeds, protein-binding motifs) and shows exactly where and how often each pattern occurs. Upload a FASTA file, run the tests, review the table and export the results as CSV. Everything runs in the browser; no sequence is sent to a server.
 
 > This repository documents the project (description, design, screenshots). The source code lives in a private repository, `DNA-Mutation-Detection-code`.
